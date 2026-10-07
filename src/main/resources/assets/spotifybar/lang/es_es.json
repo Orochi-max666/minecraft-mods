@@ -1,0 +1,38 @@
+{
+  "key.categories.spotifybar": "Spotify Bar",
+  "key.spotifybar.open": "Abrir barra de Spotify",
+  "key.spotifybar.play_pause": "Reproducir / Pausar",
+  "key.spotifybar.next": "Siguiente canción",
+  "key.spotifybar.previous": "Canción anterior",
+
+  "screen.spotifybar.title": "Spotify",
+  "screen.spotifybar.shuffle": "Al",
+  "screen.spotifybar.repeat": "Rp",
+  "screen.spotifybar.volume": "Vol %s%%",
+  "screen.spotifybar.disconnect": "Desconectar",
+  "screen.spotifybar.device": "Sonando en: %s",
+  "screen.spotifybar.nothing_playing": "Nada sonando (abre Spotify en algún dispositivo)",
+  "screen.spotifybar.tab.playlists": "Mis playlists",
+  "screen.spotifybar.tab.search": "Buscar",
+  "screen.spotifybar.search_hint": "Canción o playlist + Enter",
+  "screen.spotifybar.loading": "Cargando...",
+  "screen.spotifybar.playlists_empty": "No se encontraron playlists",
+  "screen.spotifybar.search_empty": "Escribe algo y pulsa Enter",
+
+  "screen.spotifybar.login.help": "Para conectar: 1) crea una app en developer.spotify.com/dashboard. 2) Añade esta Redirect URI: %s  3) Pega abajo el Client ID de la app y pulsa Conectar. Se abrirá una pestaña del navegador para autorizar.",
+  "screen.spotifybar.login.client_id": "Client ID",
+  "screen.spotifybar.login.connect": "Conectar",
+  "screen.spotifybar.login.copy_link": "Copiar enlace",
+  "screen.spotifybar.login.link_copied": "Enlace copiado. Pégalo en tu navegador.",
+  "screen.spotifybar.login.client_id_missing": "Pega primero tu Client ID.",
+  "screen.spotifybar.login.waiting": "Esperando la autorización en el navegador...",
+  "screen.spotifybar.login.failed": "No se pudo conectar: %s",
+
+  "screen.spotifybar.error.not_logged_in": "No estás conectado a Spotify. Abre la barra (K) para conectar.",
+  "screen.spotifybar.error.auth_failed": "La sesión de Spotify caducó. Vuelve a conectar desde la barra.",
+  "screen.spotifybar.error.no_device": "No hay ningún dispositivo de Spotify. Abre Spotify en tu PC o móvil.",
+  "screen.spotifybar.error.premium_required": "Esta acción requiere Spotify Premium.",
+  "screen.spotifybar.error.rate_limited": "Demasiadas peticiones a Spotify. Prueba en unos segundos.",
+  "screen.spotifybar.error.network": "No se puede contactar con Spotify. Revisa tu conexión.",
+  "screen.spotifybar.error.other": "Spotify: %s"
+}

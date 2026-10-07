@@ -1,0 +1,38 @@
+{
+  "key.categories.spotifybar": "Spotify Bar",
+  "key.spotifybar.open": "Open Spotify bar",
+  "key.spotifybar.play_pause": "Play / Pause",
+  "key.spotifybar.next": "Next track",
+  "key.spotifybar.previous": "Previous track",
+
+  "screen.spotifybar.title": "Spotify",
+  "screen.spotifybar.shuffle": "Sh",
+  "screen.spotifybar.repeat": "Rp",
+  "screen.spotifybar.volume": "Vol %s%%",
+  "screen.spotifybar.disconnect": "Disconnect",
+  "screen.spotifybar.device": "Playing on: %s",
+  "screen.spotifybar.nothing_playing": "Nothing playing (open Spotify on a device)",
+  "screen.spotifybar.tab.playlists": "My playlists",
+  "screen.spotifybar.tab.search": "Search",
+  "screen.spotifybar.search_hint": "Song or playlist + Enter",
+  "screen.spotifybar.loading": "Loading...",
+  "screen.spotifybar.playlists_empty": "No playlists found",
+  "screen.spotifybar.search_empty": "Type something and press Enter",
+
+  "screen.spotifybar.login.help": "To connect: 1) create an app at developer.spotify.com/dashboard. 2) Add this Redirect URI: %s  3) Paste the app's Client ID below and press Connect. A browser tab will open to authorize.",
+  "screen.spotifybar.login.client_id": "Client ID",
+  "screen.spotifybar.login.connect": "Connect",
+  "screen.spotifybar.login.copy_link": "Copy link",
+  "screen.spotifybar.login.link_copied": "Link copied. Paste it in your browser.",
+  "screen.spotifybar.login.client_id_missing": "Paste your Client ID first.",
+  "screen.spotifybar.login.waiting": "Waiting for authorization in your browser...",
+  "screen.spotifybar.login.failed": "Could not connect: %s",
+
+  "screen.spotifybar.error.not_logged_in": "Not connected to Spotify. Open the bar (K) to connect.",
+  "screen.spotifybar.error.auth_failed": "Spotify session expired. Reconnect from the bar.",
+  "screen.spotifybar.error.no_device": "No Spotify device found. Open Spotify on your PC or phone.",
+  "screen.spotifybar.error.premium_required": "This action requires Spotify Premium.",
+  "screen.spotifybar.error.rate_limited": "Too many requests to Spotify. Try again in a few seconds.",
+  "screen.spotifybar.error.network": "Cannot reach Spotify. Check your connection.",
+  "screen.spotifybar.error.other": "Spotify: %s"
+}

@@ -1,0 +1,20 @@
+# Gradle / ForgeGradle
+.gradle/
+build/
+run/
+out/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.eclipse/
+.settings/
+.project
+.classpath
+bin/
+.vscode/
+
+# Tokens locales de Spotify (nunca subir)
+tokens.json
