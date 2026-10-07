@@ -12,6 +12,10 @@ Mod **solo de cliente** que añade una barra para ver, elegir y cambiar la músi
 - **Barra en pantalla (HUD)**: portada, título, artista y progreso. Esquina, tamaño y modo configurables.
 - **Pantalla de control** (tecla `K`): anterior / play-pausa / siguiente, aleatorio, repetir, volumen, barra de
   progreso para saltar a cualquier punto, **tus playlists** y **buscador** de canciones y playlists. Clic para reproducir.
+- **Tira en el inventario**: al abrir el inventario, un cofre, la mesa de crafteo, etc. aparece una tira ancha
+  (encima de la ventana, o debajo si no cabe) con portada, título, progreso, volumen, anterior / play / siguiente,
+  aleatorio, repetir y un desplegable **Playlists** para cambiar de música mientras ordenas tus objetos.
+  Se puede desactivar con `[inventory] enabled = false`.
 - **Atajos**: `\` play/pausa, `]` siguiente, `[` anterior (todas reasignables en Controles → *Spotify Bar*).
 - Si no hay dispositivo activo, usa tu PC (o el primer dispositivo disponible) automáticamente.
 
@@ -26,8 +30,8 @@ El login usa OAuth con PKCE: **no se necesita ni se guarda ningún client secret
 `~/.spotifybar/tokens.json` (fuera de la carpeta del juego). No lo compartas.
 
 ### Configuración
-`config/spotifybar-client.toml`: `clientId`, `redirectPort`, `pollSeconds`, y en `[hud]` `mode`
-(`ALWAYS` / `ON_TRACK_CHANGE` / `OFF`), `corner` y `scale`.
+`config/spotifybar-client.toml`: `clientId`, `redirectPort`, `pollSeconds`, en `[hud]` `mode`
+(`ALWAYS` / `ON_TRACK_CHANGE` / `OFF`), `corner` y `scale`, y en `[inventory]` `enabled`.
 
 ### Compilar
 Requiere **Java 17**.

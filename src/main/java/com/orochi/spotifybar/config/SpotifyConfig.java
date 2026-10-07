@@ -15,6 +15,7 @@ public final class SpotifyConfig {
     public static final ForgeConfigSpec.EnumValue<HudMode> HUD_MODE;
     public static final ForgeConfigSpec.EnumValue<HudCorner> HUD_CORNER;
     public static final ForgeConfigSpec.DoubleValue HUD_SCALE;
+    public static final ForgeConfigSpec.BooleanValue INVENTORY_BAR;
 
     static {
         ForgeConfigSpec.Builder b = new ForgeConfigSpec.Builder();
@@ -36,6 +37,11 @@ public final class SpotifyConfig {
                 .defineEnum("corner", HudCorner.TOP_RIGHT);
         HUD_SCALE = b.comment("Tamano de la barra.")
                 .defineInRange("scale", 1.0D, 0.5D, 2.0D);
+        b.pop();
+
+        b.push("inventory");
+        INVENTORY_BAR = b.comment("Muestra la tira de Spotify al abrir el inventario, cofres, mesas de crafteo, etc.")
+                .define("enabled", true);
         b.pop();
 
         SPEC = b.build();
